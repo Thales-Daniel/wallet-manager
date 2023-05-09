@@ -1,0 +1,17 @@
+<form class="login-form">
+  <div class="form-container">
+    <div>
+      <img src="../../../../../../assets/images/wallet.png" alt="wallet logo" />
+      <h1>Wallet Manager</h1>
+    </div>
+    <label for="loginInput">
+      E-mail
+      <input name="loginInput" type="text" [(ngModel)]="email" />
+    </label>
+    <label for="passwordInput">
+      Password
+      <input name="passwordInput" type="text" [(ngModel)]="password" />
+    </label>
+    <button type="button" [disabled]="validationFields()">Entrar</button>
+  </div>
+</form>

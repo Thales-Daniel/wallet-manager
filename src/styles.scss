@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto&display=swap");
+
+*,
+*:after,
+*:before {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --font-title: "Darumadrop One", cursive;
+
+  --primary-color: #b1f1a8;
+  --secondary-color-yellow: #ffe45e;
+  --tertiary-color-black: #071013;
+  --light-gray: #757575;
+}
+
+body {
+  font-size: 100%;
+  list-style-type: none;
+}
